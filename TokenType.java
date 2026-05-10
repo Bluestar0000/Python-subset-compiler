@@ -1,0 +1,28 @@
+public enum TokenType{
+  NUMBER,
+  STRING,
+  IDENT,
+  KEYWORD,
+  LT,
+  GT,
+  LTE,
+  GTE,
+  EQ,
+  NEQ,
+  PLUS,
+  MINUS,
+  STAR,
+  SLASH,
+  ASSIGN,
+  LPAREN,
+  RPAREN,
+  LBRACE,
+  RBRACE,
+  COLON,
+  COMMA,
+  NEWLINE,
+  EOF,
+  INDENT,
+  DEDENT
+
+}
