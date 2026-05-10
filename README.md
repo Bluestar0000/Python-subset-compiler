@@ -48,6 +48,9 @@ Output:
 javac *.java
 java Main
 ```
+## Performance
+Stack-based VM executes **140M+ instructions/sec**  
+Benchmarked on a 100,000 iteration while loop
 
 ## What I Learned
 
