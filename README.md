@@ -49,8 +49,11 @@ javac *.java
 java Main
 ```
 ## Performance
-Stack-based VM executes **140M+ instructions/sec**  
-Benchmarked on a 100,000 iteration while loop
+| Metric | Result |
+|---|---|
+| VM throughput | 30M+ instructions/sec |
+| Full pipeline | ~70ms cold start |
+| Benchmark | 1,000 runs × 10,000 iterations |
 
 ## What I Learned
 
